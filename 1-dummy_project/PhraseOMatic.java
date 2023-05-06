@@ -1,11 +1,14 @@
 public class PhraseOMatic {
   public static void main(String[] args) {
     // make three sets of words to choose from. Add your own!
-    String[] wordListOne = {"agnostic", "opinionated", "voice activated", "haptically driven", "extensible", "reactive", "agent based", "functional", "AI enabled", "stringly typed"};
+    String[] wordListOne = { "agnostic", "opinionated", "voice activated", "haptically driven", "extensible",
+        "reactive", "agent based", "functional", "AI enabled", "stringly typed" };
 
-    String[] wordListTwo = {"loosely coupled", "six sigma", "asynchronous", "pub-sub", "IoT", "cloud native", "service oriented", "containerized", "serverless", "microservices", "distributed ledger"};
+    String[] wordListTwo = { "loosely coupled", "six sigma", "asynchronous", "pub-sub", "IoT", "cloud native",
+        "service oriented", "containerized", "serverless", "microservices", "distributed ledger" };
 
-    String[] wordListThree = {"framework", "library", "DSL", "REST API", "repository", "pipeline", "service mesh", "architecture", "perspective", "design", "orientation"};
+    String[] wordListThree = { "framework", "library", "DSL", "REST API", "repository", "pipeline", "service mesh",
+        "architecture", "perspective", "design", "orientation" };
 
     // find out how many words are in each list
     int oneLength = wordListOne.length;
@@ -22,6 +25,6 @@ public class PhraseOMatic {
     String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
 
     // print out phrase
-    System.out.println("What we need is a " +  phrase);
+    System.out.println("What we need is a " + phrase);
   }
 }
